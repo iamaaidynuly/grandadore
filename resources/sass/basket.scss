@@ -1,0 +1,239 @@
+.basket-table {
+    width: 100%;
+  }
+
+  td > .amount {
+    width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    margin-top: auto;
+
+    > {
+      .amountInp {
+        width: 57px;
+        font-size: 17px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        text-align: center;
+        outline: none;
+        border: none;
+        color: #1F2535;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .up, .down {
+        width: 32px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .table {
+    td, th {
+      vertical-align: middle;
+    }
+  }
+
+  table.table > thead > tr > th {
+    color: #9E9999;
+    font-family: 'Roboto';
+    font-weight: 100 !important;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .colorblack {
+    color: #000000;
+    font-weight: 400;
+  }
+
+  .colorblack > a {
+    color: #000000;
+    font-weight: 400;
+  }
+
+  tbody > tr > th {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+
+  .gray {
+    color: #646464;
+  }
+
+  .table {
+    thead th {
+      vertical-align: bottom;
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 21px;
+    }
+
+    td, th {
+      padding: 12px;
+      border-bottom: 1px solid #E6E6E6;
+    }
+
+    td, th {
+      border-top: 0 !important;
+    }
+  }
+
+  .mytable > {
+    tbody > tr > {
+      td, th {
+        padding: 0 12px;
+      }
+    }
+
+    tfoot > tr > {
+      td, th {
+        padding: 0 12px;
+      }
+    }
+
+    thead > tr > {
+      td, th {
+        padding: 0 12px;
+      }
+    }
+  }
+
+  .order-info {
+    width: 400px;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 28px;
+    position: relative;
+    margin-bottom: 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 60px;
+      right: 0;
+      width: 174px;
+      height: 1px;
+      background-color: #D7D7D7;
+    }
+  }
+.color{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 1px solid #495057;
+}
+.basket_size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C8C8C8;
+    border-radius: 6px;
+    color: #34373E;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+    cursor: pointer;
+    margin: 8px !important;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 5px 8px;
+    text-align: center;
+}
+  .order-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+  }
+
+  .text {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .text-bold {
+    font-size: 16px;
+    font-family: 'Roboto-Condensed';
+    font-weight: 700;
+    color: #201A24;
+    letter-spacing: 2px;
+  }
+
+  .total__price {
+    font-size: 22px;
+  }
+
+  .order-btn {
+    border: none;
+    border-radius: 4px;
+    background-color: #2796FF;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    width: max-content;
+    margin-top: 30px;
+    margin-left: auto;
+  }
+
+  //td:nth-child(6n) {
+  //  border-bottom: 1px #fff;
+  //}
+
+@media (max-width: 1024px) {
+    .table td, .table th {
+        padding: 12px 8px;
+    }
+}
+@media (max-width: 640px) {
+    .table td, .table th {
+        padding: 8px;
+    }
+    .container-fluid{
+        padding: 0px 20px!important;
+    }
+}
+  @media (max-width: 575px) {
+    .order-info {
+      width: 290px;
+    }
+
+    .text {
+      font-size: 15px;
+    }
+
+    .basket__price, .discount__price {
+      font-size: 17px;
+    }
+
+    .total__price {
+      font-size: 21px;
+    }
+  }
+

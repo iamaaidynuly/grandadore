@@ -1,0 +1,1 @@
+<?php return ['LOG IN'=>'Войти'];

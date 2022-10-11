@@ -1,0 +1,1 @@
+<?php return ['search'=>'Поиск','close'=>'Закрыть','placeholder'=>'Поиск в нашем каталоге'];

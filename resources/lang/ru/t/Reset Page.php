@@ -1,0 +1,1 @@
+<?php return ['Reset Password'=>'Восстановлениe пароля','Email'=>'Эл. Почта','New password'=>'Новый пароль:','Confirm password'=>'Подтвердите пароль','Confirm'=>'Подтвердить','Reset Button'=>'Восстановить'];

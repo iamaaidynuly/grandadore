@@ -1,0 +1,1 @@
+<?php return ['catalogue'=>'Каталог товаров','catalogue main menu'=>'Главное меню','catalogue all'=>'Все категории','brands'=>'Товары от бренда','brands filter'=>'Бренды','price filter'=>'Цена','price filter from'=>'От','price filter to'=>'До','color filter'=>'Цвет','filter cancel'=>'Отменить','filter apply'=>'Применить'];

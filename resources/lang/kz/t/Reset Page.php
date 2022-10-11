@@ -1,0 +1,1 @@
+<?php return ['Reset Password'=>'Жасырын сөзді қалпына келтіру','Email'=>'Email','New password'=>'Жаңа жасырын сөз','Confirm password'=>'Жасырын сөзді растау','Confirm'=>'Растау','Reset Button'=>'Reset Button'];

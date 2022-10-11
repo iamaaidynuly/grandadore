@@ -1,0 +1,48 @@
+.save-btn-fixed > button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.save-btn-fixed > button:after {
+    content: 'Сохранить';
+    font-size: 16px;
+    display: block;
+    line-height: 1;
+}
+
+.save-btn-fixed > button:before {
+    font-size: 32px;
+}
+
+a.text-cyan {
+    color: #fff !important;
+    font-size: 14px;
+    background: #32bd32;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    height: 35px;
+    border: 1px solid #32bd32;
+    border-radius: 3px;
+    transition: 150ms ease;
+}
+
+a.text-cyan i {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 18px !important;
+}
+
+a.text-cyan:hover {
+    color: #32bd32 !important;
+    background: transparent;
+    border: 1px solid #32bd32;
+}

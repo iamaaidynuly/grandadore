@@ -1,0 +1,1 @@
+<?php return ['cabinet'=>'Кабинет','login'=>'Кіру','favorite'=>'favorite','authorize'=>'Авторизовать'];

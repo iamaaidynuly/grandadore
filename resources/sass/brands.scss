@@ -1,0 +1,105 @@
+.indent {
+    margin-top: 45px;
+}
+
+.brand-name {
+    font-size: 21px;
+    color: #000000;
+    font-family: 'Roboto-Condensed';
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.brand__catalog {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.brand-card {
+    width: 219px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: #FBFBFB;
+}
+
+.brand-image-wrapper {
+    position: relative;
+}
+
+.brand-name a {
+    &:hover {
+        text-decoration: none;
+    }
+
+    color: inherit !important;
+}
+
+.brand-image {
+    width: 100%;
+    height: auto;
+}
+
+.brand-logo-div {
+    position: absolute;
+    left: 6%;
+    bottom: 10%;
+    border-radius: 38px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #fff;
+    width: 104px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1439px) {
+    .brand-card {
+        width: 18.89%;
+        margin: 6px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .brand-card {
+        width: 23.71%;
+    }
+}
+
+@media (max-width: 991px) {
+    .brand-logo-div {
+        bottom: 20px;
+        left: 20px;
+        bottom: 11%;
+    }
+
+    .brand-card {
+        width: 31%;
+    }
+}
+
+@media (max-width: 575px) {
+    .brand-card {
+        margin: 0;
+        width: 50%;
+    }
+
+    .brand-name {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .brand-logo-div {
+        width: 94px;
+        height: 31px;
+        left: 10px;
+        bottom: 12%;
+    }
+}

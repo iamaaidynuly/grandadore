@@ -1,0 +1,39 @@
+.nav-breadcrumb {
+  margin: 24px 0 !important;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  background-color: #fff !important;
+}
+
+.breadcrumb-item {
+  height: 21px;
+}
+
+.breadcrumb-item.active {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.breadcrumb-link {
+  color: #8A8A8A !important;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.breadcrumb-link:hover {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .breadcrumb-link {
+    font-size: 13px;
+  }
+}
+

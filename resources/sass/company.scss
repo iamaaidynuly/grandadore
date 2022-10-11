@@ -1,0 +1,173 @@
+@import "_variables.scss";
+@import '~lightgallery/src/css/lightgallery.css';
+
+body {
+    .company-bg-image {
+        position: relative;
+        padding-top: 58%;
+        border-radius: 6px;
+
+        .company-card-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .company-top-image {
+            position: absolute;
+            top: -19px;
+            left: 10px;
+            width: 57px;
+            display: block;
+            border: solid 4px white;
+            height: 57px;
+            background: #ffffff;
+            border-radius: 50%;
+
+            img {
+                border-radius: 50%;
+                width: 100%;
+                /* position: absolute; */
+                border: solid 2px white;
+                background: white;
+                box-shadow: 0 3px 6px #15151552;
+            }
+        }
+
+        .company-name {
+            background: white;
+            min-width: 50%;
+            border-radius: 1rem;
+            position: absolute;
+            box-shadow: 0 3px 6px #80808094;
+            padding: 5px 15px 5px 15px;
+            left: 13px;
+            bottom: -8px;
+
+            a {
+                font-size: 15px;
+                color: $dark;
+                transition: font-weight .5s ease-in;
+
+                &:hover {
+                    text-decoration: unset;
+                    font-weight: 600;
+
+                }
+            }
+        }
+    }
+
+    .company-item-bg-image {
+        background-position: center;
+        padding-top: 55%;
+        background-repeat: no-repeat;
+        width: 85%;
+        position: relative;
+        border-radius: 6px;
+
+        .company-description {
+            position: absolute;
+            top: 45px;
+            display: flex;
+            right: -15%;
+            flex-direction: column;
+            background: #ffffff;
+            border-radius: .75rem;
+            box-shadow: 0 -1px 6px #a0a0a09e;
+            width: 25%;
+
+            .company-short-info {
+                .company-item-image {
+                    border-radius: 50%;
+                    background: white;
+                    box-shadow: 0 1px 3px #00000080;
+                    width: 120px;
+                    border: solid 12px white;
+                    height: 120px;
+                    position: relative;
+                    margin-top: -25px;
+                    margin-left: -50px;
+
+                    img {
+                        top: 50%;
+                        margin: 0 auto;
+                        border-radius: 50%;
+                        width: 100%;
+                        display: block;
+                        position: relative;
+                        transform: translateY(-50%);
+                    }
+                }
+
+                display: flex;
+                flex-direction: column;
+                padding: 12px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                gap: 8px;
+
+                .items {
+                    h1 {
+                        margin: unset;
+                        font-size: 1.7rem;
+                    }
+
+                    p {
+                        letter-spacing: 1px;
+                        margin-bottom: 5px;
+
+                        a {
+                            text-decoration: underline;
+                            color: $red;
+                            letter-spacing: 0;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .info {
+                        display: flex;
+                        flex-direction: column;
+                        letter-spacing: 1px;
+
+                        span {
+                            font-size: 15px;
+                            color: $dark-grey;
+                        }
+
+                        a {
+                            color: $dark;
+                            font-weight: 600;
+                            word-break: break-all;
+
+                            &:hover {
+                                text-decoration: unset;
+                            }
+                        }
+
+                        p {
+                            color: $dark;
+                            font-weight: 600;
+                            margin: unset;
+                        }
+                    }
+
+                    & > a {
+                        color: $red;
+                        font-weight: bolder;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="20" viewBox="0 0 82 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.851" y1="0.851" x2="0.149" y2="0.149" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.251" stop-color="#f5f5f5"/>
+      <stop offset="0.529" stop-color="#efedea"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-Пользовательский_1">
+      <rect width="82" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="Пользовательский_1" data-name="Пользовательский – 1" clip-path="url(#clip-Пользовательский_1)">
+    <g id="Сгруппировать_2" data-name="Сгруппировать 2" transform="translate(-20.323 2.023)">
+      <text id="Grand_Adore" data-name="Grand Adore" transform="translate(38.323 10.415)" fill="#fff" font-size="8" font-family="Couture-Bold, Couture" font-weight="700"><tspan x="0" y="0">GRAND ADORE</tspan></text>
+      <g id="Сгруппировать_1" data-name="Сгруппировать 1" transform="translate(21 1)">
+        <g id="Слой_x0020_1" transform="translate(0)">
+          <path id="Контур_12625" data-name="Контур 12625" d="M.084,6.815Q2.051,3.407,4.018,0h8.054l1.279,2.216c.817,1.416,1.64,2.842,2.713,4.7l.036.063q-2.015,3.488-4.028,6.977H4.018L2,10.466-.01,6.977l.094-.162Zm2.482-3L.739,6.977,4.392,13.3H11.7l3.652-6.326L11.7.651H4.392Z" transform="translate(0.01)" fill="url(#linear-gradient)"/>
+        </g>
+        <path id="Контур_12626" data-name="Контур 12626" d="M5.381-30.412c-.819,0-1.757-.007-2.43-.007v.879a.775.775,0,0,0,.186.007c.266,0,.752-.007.965-.007H4.21a1.351,1.351,0,0,1-1.258.719,1.428,1.428,0,0,1-1.438-1.438A1.432,1.432,0,0,1,2.951-31.7a1.4,1.4,0,0,1,1.232.7c.466-.233.5-.253.919-.466a2.493,2.493,0,0,0-2.15-1.252A2.463,2.463,0,0,0,.5-30.258,2.465,2.465,0,0,0,2.951-27.8a2.442,2.442,0,0,0,2.157-1.278A3.02,3.02,0,0,0,5.381-30.412Zm3.222.779A1.424,1.424,0,0,0,9.735-31.1a1.473,1.473,0,0,0-1.658-1.525H5.934v4.76H6.986v-1.711H7.5l1.2,1.711H9.975L8.643-29.633ZM7.8-31.816c.5,0,.912.093.912.712s-.413.719-.912.719H6.986v-1.431Z" transform="translate(2.919 37.348)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

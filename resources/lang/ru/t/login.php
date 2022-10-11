@@ -1,0 +1,1 @@
+<?php return ['cabinet'=>'Личный кабинет','login'=>'Логин','favorite'=>'Фавориты','authorize'=>'Войти'];

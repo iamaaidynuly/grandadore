@@ -1,0 +1,23 @@
+.stars-wrapper {
+  margin: 9px 0 4px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+
+  &:not(.stars-read-only) {
+    span {
+      &:hover, &:hover ~ span {
+        color: #bd0b0b !important;
+      }
+    }
+  }
+
+  span {
+    color: #ccc;
+
+    &.active, &.active ~ span {
+      color: #F34269;
+    }
+  }
+}
+

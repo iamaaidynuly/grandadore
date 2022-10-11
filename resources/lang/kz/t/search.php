@@ -1,0 +1,1 @@
+<?php return ['search'=>'Іздеу','close'=>'Жабу','placeholder'=>'placeholder'];

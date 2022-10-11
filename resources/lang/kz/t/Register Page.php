@@ -1,0 +1,1 @@
+<?php return ['Name'=>'Атыңыз','Email'=>'Email','email'=>'email','Phone'=>'Телефон нөміріңіз','Password'=>'Жасырын сөз','Confirm password'=>'Жасырын сөзді растау','Are you Magazine'=>'Сіз дүкенсіз бе?','register'=>'Тіркелу','Oferta text'=>'Оферта мәтіні','Oferta href'=>'Oferta href','Oferta unchecked'=>'Oferta unchecked'];

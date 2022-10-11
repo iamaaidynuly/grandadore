@@ -1,0 +1,1 @@
+<?php return ['Hotels news' => 'Hotels news', 'Photo gallery' => 'Photo gallery', 'Contact_block_first_text' => 'If you have any', 'Contact_block_second_text' => 'questions feel', 'Contact_block_third_text' => 'free to contact us!', 'Contact_block_button_text' => 'Contact Us'];

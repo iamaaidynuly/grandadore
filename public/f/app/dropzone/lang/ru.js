@@ -1,0 +1,12 @@
+Dropzone.prototype.defaultOptions.dictDefaultMessage = "Перетащите файлы для загрузки в это поле";
+Dropzone.prototype.defaultOptions.dictFallbackMessage = "К сожалению, ваш браузер не поддерживает Drag'n'Drop.";
+Dropzone.prototype.defaultOptions.dictFallbackText = "Пожалуйста, воспользуйтесь старой доброй формой для загрузки.";
+Dropzone.prototype.defaultOptions.dictFileTooBig = "Файл слишком большой({{filesize}}MB). Максимальный допустимый размер файла {{maxFilesize}}MB.";
+Dropzone.prototype.defaultOptions.dictInvalidFileType = "Вы не можете загружать файлы этого типа.";
+Dropzone.prototype.defaultOptions.dictResponseError = "Произошла ошибка при загрузке файла. Код ошибки {{statusCode}}.";
+Dropzone.prototype.defaultOptions.dictCancelUpload = "Отменить загрузку";
+Dropzone.prototype.defaultOptions.dictUploadCanceled = "Загрузка отменена.";
+Dropzone.prototype.defaultOptions.dictCancelUploadConfirmation = "Уверены, что хотите прервать загрузку?";
+Dropzone.prototype.defaultOptions.dictRemoveFile = "Удалить файл";
+Dropzone.prototype.defaultOptions.dictRemoveFileConfirmation = null;
+Dropzone.prototype.defaultOptions.dictMaxFilesExceeded = "Превышен лимит количества файлов. Вы можете загрузить не более {{maxFiles}}.";

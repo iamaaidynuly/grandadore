@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="notef" transform="translate(0.215 0.428)">
+    <g id="note" transform="translate(-0.215 -0.428)" fill="#fff" stroke="#000" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+    <path id="Контур_12492" data-name="Контур 12492" d="M4.139-4.972H1.828V-15.26h2.31Zm0-12.807H1.828V-19.8h2.31Z" transform="translate(11.75 27.564)"/>
+  </g>
+</svg>

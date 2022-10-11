@@ -1,0 +1,1 @@
+<?php return ['main'=>'Главная кз','Hotels news'=>'Hotels news','basket'=>'basket'];

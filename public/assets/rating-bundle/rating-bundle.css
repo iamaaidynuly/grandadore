@@ -1,0 +1,1 @@
+.stars-wrapper{display:flex;flex-direction:row-reverse}.stars-wrapper:not(.stars-read-only) span:hover,.stars-wrapper:not(.stars-read-only) span:hover~span{color:#bd0b0b!important}.stars-wrapper span{color:#ccc}.stars-wrapper span.active,.stars-wrapper span.active~span{color:#f34269}

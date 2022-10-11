@@ -1,0 +1,1 @@
+Javascript Cookie v2.2.0

@@ -1,0 +1,51 @@
+.nav-breadcrumb {
+    margin: 24px 0 !important;
+    margin: 0 auto;
+}
+.breadcrumb {
+    margin-bottom: 1.5rem !important;
+    background-color: #fff !important;
+}
+
+.breadcrumb-item:active{
+    color: #000 !important;
+}
+.breadcrumb-item.active {
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: #000 !important;
+}
+
+.breadcrumb-link {
+    &:active {
+        color: #000 !important;
+        text-decoration: none;
+    }
+    &:hover {
+        color: #000 !important;
+        text-decoration: none;
+    }
+}
+
+.breadcrumb-link {
+    color: #8A8A8A !important;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    width: max-content;
+}
+
+@media (max-width: 575px) {
+    .breadcrumb-link, .breadcrumb-item.active {
+        font-size: 14px !important;
+        color: #000 !important;
+    }
+}
+
+@media (max-width: 574px) {
+    .breadcrumb-link, .breadcrumb-item.active {
+        font-size: 13px !important;
+        color: #000 !important;
+    }
+}
+

@@ -1,0 +1,34 @@
+$red: #BB003F;
+$light-grey: #F5F5F5;
+$dark-grey: #858585;
+$grey: #E0E0E0;
+$dark: #212121;
+
+$grid-breakpoints: (
+    // Extra small screen / phone
+    xs: 0,
+    // Small screen / phone
+    //  sm: 480px,
+    sm: 576px,
+    // Medium screen / tablet
+    md: 768px,
+    // Large screen / desktop (target 1024 screen resolutions)
+    //      lg: 980px,
+    lg: 992px,
+    // Extra large screen / wide desktop (target 1280 screen resolutions)
+    //xl: 1220px,
+    xl: 1200px,
+    // Extra large screen / wide desktop (target 1440 screen resolutions)
+    xxl: 1340px,
+    xxxl: 1440px
+);
+
+$container-max-widths: (
+    xs: 96vw,
+    sm: 90vw,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1240px,
+    xxxl: 1440px,
+);

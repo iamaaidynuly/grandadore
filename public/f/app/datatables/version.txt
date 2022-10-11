@@ -1,0 +1,1 @@
+DataTables v1.10.18 Russian
