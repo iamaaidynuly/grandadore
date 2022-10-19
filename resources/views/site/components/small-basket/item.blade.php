@@ -18,7 +18,8 @@
         @endif
         <div class="prices d-flex flex-column flex-sm-row justify-content-center align-items-center">
 
-            <p class="price m-0 mr-sm-2 basket-price" data-price="{{ $basketItem->getDiscountedPrice(true) }}">
+{{--            <p class="price m-0 mr-sm-2 basket-price" data-price="{{ $basketItem->getDiscountedPrice(true) }}">--}}
+            <p class="price m-0 mr-sm-2 basket-price" >
                 {{ $basketItem->getDiscountedPrice(true) }}
                 @include('components.currency-symbol')
             </p>

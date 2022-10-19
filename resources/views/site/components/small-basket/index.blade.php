@@ -1,6 +1,7 @@
 
 <div class="basket__mini">
     <p class="product__numbers">{{ count($basketItems = $basketService->getItems()) ? t('basket.basket') : t('basket.basket_empty') }}</p>
+{{--    <p class="product__numbers">123</p>--}}
 
     <div class="small-basket-wrapper">
 

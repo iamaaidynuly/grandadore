@@ -50,9 +50,7 @@ class BasketItem extends ValueObject
      */
     public function getPrice(bool $exchanged = false)
     {
-        return $this->size ?
-            ($exchanged ? $this->size->exchangedPrice : $this->size->price) :
-            ($exchanged ? $this->item->exchangedPrice : $this->item->price);
+        return $this->size ? ($exchanged ? $this->size->exchangedPrice : $this->size->price) : ($exchanged ? $this->item->exchangedPrice : $this->item->price);
     }
 
     /**
@@ -125,6 +123,11 @@ class BasketItem extends ValueObject
     public function getDiscountedPrice(bool $exchanged = false)
     {
         return $this->getPrice($exchanged) - ($this->getPrice($exchanged) * $this->getItemDiscount() / 100);
+    }
+
+    public function getBasketPrice()
+    {
+        return $this->item->count * $this->item->price;
     }
 
     /**
